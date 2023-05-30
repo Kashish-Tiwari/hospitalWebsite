@@ -2,7 +2,7 @@
 
 /* variables */
 :root{
-    --fros-blue-color: #0050d5;
+    --fros-blue-color: #57BC90;
     --light-blue-color: #16c5ff;
     --dark-color: #202020;
     --light-gray: #dedede;
@@ -22,6 +22,10 @@
 }
 html{
     font-size: 10px;
+}
+h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body{
     font-size: 1.6rem;
@@ -345,36 +349,7 @@ button[class ^= navbar]:hover{
 .about .btn-white{
     color: var(--dark-gray);
 }
-.about-right .img{
-    width: 100%;
-    background-color: #3983fe;
-    max-width: 537px;
-    position: relative;
-}
-.about-right .img img{
-    padding-top: 10rem;
-    -webkit-transform: scaleX(1.03);
-        -ms-transform: scaleX(1.03);
-            transform: scaleX(1.03);
-}
-.about-right .img::after, .about-right .img::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-.about-right .img::after{
-    top: -56px;
-    left: 0;
-    background-color: #0060ff;
-    z-index: -1;
-}
-.about-right .img::before{
-    top: -112px;
-    left: 0;
-    background-color: var(--fros-blue-color);
-    z-index: -2;
-}
+
 
 /* banner one section */
 .banner-one{
@@ -611,7 +586,7 @@ button[class ^= navbar]:hover{
 }
 .form-element .form-control{
     width: 100%;
-    background-color: #3373dd;
+    background-color: #252a31;
     border: none;
     outline: 0;
     padding: 1rem 1.6rem;
